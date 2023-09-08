@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form01Style.css">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script defer src="form01Script.js"></script>
+    <title>TestForm1</title>
+</head>
+
+<body>
+    <div class="TestForm">
+        <h1> Practice Form </h1>
+        <form name="myform" action="submit.html" onsubmit="return validationform()" method="post">
+            <div class="FirstSection">
+                <b>Enter First Name : </b><input type="text" name="Fname" required >
+                <b>Enter middle Name : </b><input type="text" name="Mname">
+                <b>Enter Last Name : </b><input type="text" name="Lname" required >
+            </div>
+            <div class="SecondSection">
+                <b>Enter Phone Number : </b><input type="tel" name="phonenumber" class="phonenumber" required>
+            </div>
+
+            <div class="PasswordSection">
+                <b>Enter Password : </b><input type="password" name="fpass" class="fpassclass" required>
+            </div>
+
+            <div class="ConfirmPasswordSection">
+                <b>Enter ConfirmPassword : </b><input type="password" name="cpass" class="cpassclass" required>
+            </div>
+
+            <div class="Submit">
+                <input type="submit" name="Submit" class="submitin" value="Submit">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

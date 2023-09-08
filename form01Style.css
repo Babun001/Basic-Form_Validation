@@ -1,0 +1,61 @@
+*{
+
+}
+body{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+    padding: 50px;
+}
+
+input{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+
+.FirstSection{
+    margin: 15px;
+    padding: 10px;
+}
+.SecondSection{
+    margin: 15px;
+    padding: 10px;
+}
+
+.phonenumber{
+    width: 80%;
+}
+
+.Submit{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    color: red;
+}
+.submitin{
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    cursor: pointer;
+}
+.submitin:hover{
+    background-color: rgb(227, 0, 0);
+    transition: 0.2s;
+};
+.PasswordSection{
+    margin: 15px;
+    padding: 10px;    
+}
+.ConfirmPasswordSection{
+    margin: 15px;
+    padding: 10px;
+}
+.fpassclass{
+    width: 84%;
+}
+.cpassclass{
+    width: 78%;
+}
